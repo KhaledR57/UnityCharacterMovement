@@ -1,6 +1,6 @@
 # Unity Character Movement
 
-1. Put "direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"))" in Update method then check it in the FixedUpdate method.
+1. Put `direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"))` in `Update` method then check it in the `FixedUpdate` method.
 
 2. Use velocity to move right and left, and use force to make the jump.
 
